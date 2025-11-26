@@ -61,7 +61,7 @@ Even critical, urgent, or emergency technical issues do NOT allow breaking this 
 ---
 
 ### Rule 4: Documentation Location
-**All documentation files must be created in the `D:\Vs-Code\terraform-aws-eks\docs\` folder to keep them private.**
+**All documentation files must be created in the `D:\Vs-Code\docs\` folder to keep them private.**
 
 #### What Goes in docs/:
 - ✅ Interview preparation materials
