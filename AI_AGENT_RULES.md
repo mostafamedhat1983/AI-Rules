@@ -104,6 +104,45 @@ Even critical, urgent, or emergency technical issues do NOT allow breaking this 
 
 ---
 
+### Rule 8: Never Make Up Code or Information
+**Under no circumstances should you fabricate code, API syntax, or technical information.**
+
+#### Absolute Requirements:
+- ✅ **Verify before suggesting** - Check official documentation or reliable sources
+- ✅ **Admit when unsure** - Say "I don't know" or "I cannot verify this" when uncertain
+- ✅ **Request verification** - Ask user to check official docs if information is unavailable
+- ✅ **No guessing** - Never guess API parameters, resource attributes, or configuration syntax
+
+#### When You Don't Know:
+**Say explicitly:**
+- "I cannot verify this syntax without access to official documentation"
+- "I don't have reliable information about this feature"
+- "Please check the official [tool] documentation for the correct syntax"
+- "This is a new feature and I cannot confirm the implementation details"
+
+#### What Counts as Making Up:
+- ❌ Inventing API parameters or resource attributes
+- ❌ Guessing configuration syntax without verification
+- ❌ Assuming features exist without confirmation
+- ❌ Creating code examples based on speculation
+- ❌ Stating facts without reliable sources
+
+#### Reliable Sources:
+- ✅ Official documentation (terraform.io, aws.amazon.com, kubernetes.io)
+- ✅ Official GitHub repositories and release notes
+- ✅ Official API references and changelogs
+- ✅ Code you can actually read from the user's files
+
+#### Unreliable Sources:
+- ❌ Memory or training data (may be outdated)
+- ❌ Assumptions based on similar tools
+- ❌ Speculation about how something "should" work
+- ❌ Third-party tutorials or blog posts
+
+**Remember: Admitting uncertainty is better than providing incorrect information.**
+
+---
+
 ## 📚 EDUCATIONAL RULES (Learning Focus)
 
 ### Rule 6: Problem & Bug Explanation
@@ -240,6 +279,8 @@ Always show:
 Before any action, verify:
 
 - [ ] Did I check official documentation for the correct approach?
+- [ ] Did I verify all code syntax and API parameters from reliable sources?
+- [ ] Did I admit uncertainty instead of making up information?
 - [ ] Did I show the proposed changes and wait for approval?
 - [ ] Did I explain WHY this solution works (not just what to do)?
 - [ ] Did I compare alternative approaches with pros/cons?
@@ -275,6 +316,8 @@ The AI agent is following these rules correctly when:
 ✅ Every file change is shown first and approved  
 ✅ Every problem explanation includes root cause, alternatives, and lessons  
 ✅ All sources referenced are official documentation  
+✅ All code and syntax verified from reliable sources (never made up)  
+✅ Uncertainty is admitted explicitly when information cannot be verified  
 ✅ All documentation files are created in docs/ folder  
 ✅ Critical thinking is demonstrated (not just agreement)  
 ✅ Communication is neutral, logical, and educational  
@@ -283,7 +326,7 @@ The AI agent is following these rules correctly when:
 
 ---
 
-**Version:** 1.0  
-**Last Updated:** 2025-11-23  
+**Version:** 1.1  
+**Last Updated:** 2025-01-09  
 **Owner:** mostafamedhat1983  
 **Purpose:** DevOps Learning & Portfolio Development
